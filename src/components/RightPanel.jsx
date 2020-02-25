@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "../components/routes/Home";
 import ArrayComp from "./routes/ArrayComp";
+import Notfound from "./routes/NotFound";
+import Photos from "./routes/Photos";
 
 class RightPanel extends React.Component {
   render() {
@@ -9,14 +11,15 @@ class RightPanel extends React.Component {
       <div className="right-panel">
         <div className="right-header">
           <h3>Hello</h3>
-          <Router>
-            <Switch>
-              <Route path="/" exact component={Home} />
-              <Route path="/array-comp" component={ArrayComp} />
-            </Switch>
-          </Router>
         </div>
-        <div className="right-body"></div>
+        <div className="right-body">
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/array-comp" component={ArrayComp} />
+            <Route path="/photos" component={Photos} />
+            <Route component={Notfound} />
+          </Switch>
+        </div>
       </div>
     );
   }

@@ -68,17 +68,14 @@ body {
   color: black;
   padding: 1rem;
   text-align: center;
+  text-decoration: none;
   &:hover {
-    transform: scale(1);
-    box-shadow: 2px 2px 10px rgba(8, 146, 238, 0.5);
-    background-color: grey;
+    cursor: pointer;
+    background-color: rgb(200, 127, 127);
   }
-  &:active {
-    transform: scale(1);
-    box-shadow: 2px 2px 10px rgba(8, 146, 238, 0.5);
-    background-color: grey;
-  }
-  cursor: pointer;
+}
+.active {
+  background-color: rgb(195, 182, 186);
 }
 .footer {
   grid-area: footer;
@@ -91,3 +88,32 @@ body {
 .array-comp {
   color: black;
 }
+.photos-container {
+  overflow: auto;
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+}
+img {
+  margin: 5px;
+  transition: all 1s;
+}
+img:hover {
+  transform: scale(1.1);
+}
+// @media only screen and (max-width: 600px) {
+//   .App {
+//     height: 100vh;
+//     display: grid;
+//     grid-template-areas:
+//       "right-panel"
+//       "footer";
+//     grid-template-rows: 93% 7%;
+//     background-color: whitesmoke;
+//   }
+//   .left-panel {
+//     display: none;
+//   }
+// }
