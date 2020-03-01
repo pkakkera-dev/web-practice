@@ -13,9 +13,15 @@ class Photos extends React.Component {
           data.hits.map(item => {
             return (
               <div className="photo-item" key={item.id}>
-                <img src={item.previewURL} height="200px" width="300px" />
+                <img
+                  src={item.previewURL}
+                  height={item.previewHeight}
+                  width={item.previewWidth}
+                />
                 <div className="image-desc">
-                  <span>{item.tags}</span>
+                  <span style={{ paddingLeft: "15px" }}>
+                    {item.tags.slice(0, 5)}
+                  </span>
                 </div>
               </div>
             );
