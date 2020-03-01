@@ -1,32 +1,22 @@
 {
   "files": {
-    "main.css": "/web-practice/static/css/main.b7f466ca.chunk.css",
-    "main.js": "/web-practice/static/js/main.70571234.chunk.js",
-    "main.js.map": "/web-practice/static/js/main.70571234.chunk.js.map",
+    "main.css": "/web-practice/static/css/main.63f277ea.chunk.css",
+    "main.js": "/web-practice/static/js/main.7abf5034.chunk.js",
+    "main.js.map": "/web-practice/static/js/main.7abf5034.chunk.js.map",
     "runtime-main.js": "/web-practice/static/js/runtime-main.b540ec40.js",
     "runtime-main.js.map": "/web-practice/static/js/runtime-main.b540ec40.js.map",
-    "static/js/2.15e84bf6.chunk.js": "/web-practice/static/js/2.15e84bf6.chunk.js",
-    "static/js/2.15e84bf6.chunk.js.map": "/web-practice/static/js/2.15e84bf6.chunk.js.map",
+    "static/js/2.3e9ea29e.chunk.js": "/web-practice/static/js/2.3e9ea29e.chunk.js",
+    "static/js/2.3e9ea29e.chunk.js.map": "/web-practice/static/js/2.3e9ea29e.chunk.js.map",
     "index.html": "/web-practice/index.html",
-    "precache-manifest.31e5dbf90bd706e836f9d10c529b288d.js": "/web-practice/precache-manifest.31e5dbf90bd706e836f9d10c529b288d.js",
+    "precache-manifest.5e07050711b13b19b0f204fb719e8193.js": "/web-practice/precache-manifest.5e07050711b13b19b0f204fb719e8193.js",
     "service-worker.js": "/web-practice/service-worker.js",
-    "static/css/main.b7f466ca.chunk.css.map": "/web-practice/static/css/main.b7f466ca.chunk.css.map",
-    "static/js/2.15e84bf6.chunk.js.LICENSE.txt": "/web-practice/static/js/2.15e84bf6.chunk.js.LICENSE.txt",
-    "static/media/GameNyt.jpg": "/web-practice/static/media/GameNyt.2d1f8ae7.jpg",
-    "static/media/TinkBday.jpg": "/web-practice/static/media/TinkBday.d64adfab.jpg",
-    "static/media/Westport.jpg": "/web-practice/static/media/Westport.b6486108.jpg",
-    "static/media/keerti.jpg": "/web-practice/static/media/keerti.85bcf57a.jpg",
-    "static/media/mincar.jpg": "/web-practice/static/media/mincar.9be383ee.jpg",
-    "static/media/priti.jpg": "/web-practice/static/media/priti.fddfbfb2.jpg",
-    "static/media/sankran.jpg": "/web-practice/static/media/sankran.f361cb47.jpg",
-    "static/media/siju.jpg": "/web-practice/static/media/siju.68f78ce1.jpg",
-    "static/media/wed1.jpg": "/web-practice/static/media/wed1.d7d231dd.jpg",
-    "static/media/wed2.jpg": "/web-practice/static/media/wed2.7f7ae0dd.jpg"
+    "static/css/main.63f277ea.chunk.css.map": "/web-practice/static/css/main.63f277ea.chunk.css.map",
+    "static/js/2.3e9ea29e.chunk.js.LICENSE.txt": "/web-practice/static/js/2.3e9ea29e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b540ec40.js",
-    "static/js/2.15e84bf6.chunk.js",
-    "static/css/main.b7f466ca.chunk.css",
-    "static/js/main.70571234.chunk.js"
+    "static/js/2.3e9ea29e.chunk.js",
+    "static/css/main.63f277ea.chunk.css",
+    "static/js/main.7abf5034.chunk.js"
   ]
 }
