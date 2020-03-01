@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "../components/routes/Home";
 import ArrayComp from "./routes/ArrayComp";
 import Notfound from "./routes/NotFound";
-import Photos from "./routes/Photos";
+import PhotosContainer from "./routes/PhotosContainer";
 
 class RightPanel extends React.Component {
   render() {
@@ -16,7 +16,7 @@ class RightPanel extends React.Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/array-comp" component={ArrayComp} />
-            <Route path="/photos" component={Photos} />
+            <Route path="/photos" component={PhotosContainer} />
             <Route component={Notfound} />
           </Switch>
         </div>

@@ -18,7 +18,7 @@ body {
       grid-template-columns: 25% 75%;
   -ms-grid-rows: 93% 7%;
       grid-template-rows: 93% 7%;
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 .left-panel {
@@ -117,8 +117,7 @@ body {
 }
 
 .photos-container {
-  overflow: auto;
-  height: 80vh;
+  overflow: scroll;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -128,6 +127,9 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   cursor: pointer;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
 }
 
 img {
@@ -139,5 +141,37 @@ img {
 img:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.image-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.searchBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+  background-color: white;
+  padding: 10px 120px;
+}
+
+.searchBar input {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: medium;
+}
+
+.photosContainer {
+  background-color: white;
+  height: 100%;
+  overflow: scroll;
 }
 /*# sourceMappingURL=style.css.map */

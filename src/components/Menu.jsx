@@ -8,7 +8,7 @@ const Menu = () => {
       {menus &&
         menus.map(item => {
           return (
-            <NavLink exact to={item.path} className="menu-item">
+            <NavLink exact to={item.path} className="menu-item" key={item.id}>
               {item.name}
             </NavLink>
           );

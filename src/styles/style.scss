@@ -15,7 +15,7 @@ body {
     "footer footer";
   grid-template-columns: 25% 75%;
   grid-template-rows: 93% 7%;
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 .left-panel {
@@ -89,12 +89,12 @@ body {
   color: black;
 }
 .photos-container {
-  overflow: auto;
-  height: 80vh;
+  overflow: scroll;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   cursor: pointer;
+  flex-grow: 0;
 }
 img {
   margin: 5px;
@@ -117,3 +117,24 @@ img:hover {
 //     display: none;
 //   }
 // }
+.image-desc {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.searchBar {
+  display: flex;
+  height: 60px;
+  background-color: white;
+  padding: 10px 120px;
+  input {
+    justify-content: space-around;
+    flex: 1;
+    font-size: medium;
+  }
+}
+.photosContainer {
+  background-color: white;
+  height: 100%;
+  overflow: scroll;
+}
